@@ -24,13 +24,13 @@ Or install it yourself as:
 2. call the shoes_date_picker method and capture the selected date:
 ```ruby
     button "Select deadline" do
-        @deadline = shoesdatepicker
+        @deadline = shoes_datepicker
     end
 ```  
 Optionally, pass in the background color to the widget:
 ```ruby
     button "Select deadline" do
-        @deadline = shoesdatepicker(green)
+        @deadline = shoes_datepicker(green)
     end
 ``` 
 The deafult color is set to deepskyblue.
