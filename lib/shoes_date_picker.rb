@@ -1,5 +1,5 @@
 require "shoes_date_picker/version"
-require_relative 'shoes_date_picker/dp_helpers.rb'
+require_relative 'shoes_date_picker/sdp_helpers.rb'
 require 'date'
 
 class ShoesDatepicker < Shoes::Widget
